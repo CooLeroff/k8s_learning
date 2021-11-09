@@ -28,3 +28,8 @@ Reload bash
 ```
 source ~/.bashrc
 ```
+Use nano editor to edit kubectl (for example "replicaset")
+
+```
+KUBE_EDITOR="nano" kubectl rs replicaset
+```
